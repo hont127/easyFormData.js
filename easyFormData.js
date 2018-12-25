@@ -10,7 +10,7 @@ EasyFormData.prototype.append = function(key, value) {
 EasyFormData.prototype.toString = function() {
 	var sb = [];
 	
-	for(var i = 1; i < this.kv_pair.length; i++) {
+	for(var i = 0; i < this.kv_pair.length; i++) {
 		var key = this.kv_pair[i][0];
 		var value = this.kv_pair[i][1];
 		
